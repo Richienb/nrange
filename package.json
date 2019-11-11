@@ -1,6 +1,6 @@
 {
     "name": "nrange",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Check if numbers or strings are ordered from smallest to largest.",
     "repository": "https://github.com/Richienb/nrange.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
@@ -17,7 +17,13 @@
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": ["range", "number", "between", "order", "alphabet"],
+    "keywords": [
+        "range",
+        "number",
+        "between",
+        "order",
+        "alphabet"
+    ],
     "dependencies": {},
     "devDependencies": {
         "ava": "^2.1.0",
