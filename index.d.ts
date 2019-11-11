@@ -1,14 +1,23 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Check if numbers or strings are ordered from smallest to largest.
+ * @param values The values to compare.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const nRange = require("nrange");
+ * 
+ * nRange(1, 2, 3);
+ * //=> true
+ * 
+ * nRange(1, 3, 2);
+ * //=> false
+ * 
+ * nRange("a", "b", "c");
+ * //=> true
+ * 
+ * nRange("a", "c", "b");
+ * //=> false
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function nRange(...values: ArrayLike<string | number>): boolean;
 
-export = theModule;
+export = nRange;

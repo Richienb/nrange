@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "nrange",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Check if numbers or strings are ordered from smallest to largest.",
+    "repository": "https://github.com/Richienb/nrange.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,13 +11,13 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=8.3"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
+    "keywords": ["range", "number", "between", "order", "alphabet"],
     "dependencies": {},
     "devDependencies": {
         "ava": "^2.1.0",
